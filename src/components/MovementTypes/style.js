@@ -16,7 +16,8 @@ const styles = StyleSheet.create({
     },
     boxTitle: {
         color: "#fff",
-        marginTop: 8
+        marginTop: 8,
+        fontFamily: 'Inter_400Regular'
     }
 })
 

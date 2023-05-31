@@ -8,9 +8,6 @@ const styles = StyleSheet.create({
     Card: {
         width: 396,
         height: 250,
-        position: "absolute",
-        left: 0,
-        top: 0,
     },
     image: {
         width: "100%",
@@ -37,13 +34,15 @@ const styles = StyleSheet.create({
         color: "#fff",
         fontSize: 14,
         fontWeight: "500",
-        lineHeight: 17
+        lineHeight: 17,
+        fontFamily: 'Inter_400Regular'
     },
     accoutType: {
         fontSize: 12,
         fontWeight: "300",
         color: "#fff",
-        opacity: 0.5
+        opacity: 0.5,
+        fontFamily: 'Inter_400Regular'
     },
     cardMoveTypes: {
         marginLeft: 41,

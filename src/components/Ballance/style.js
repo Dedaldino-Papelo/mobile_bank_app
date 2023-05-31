@@ -12,13 +12,16 @@ const styles = StyleSheet.create({
         color: "#fff",
         fontSize: 14,
         fontWeight: "500",
-        lineHeight: 17
+        lineHeight: 17,
+        fontFamily: 'Inter_400Regular'
+
     },
     ballance: {
         color: "#fff",
         fontSize: 14,
         fontWeight: "600",
-        lineHeight: 17
+        lineHeight: 17,
+        fontFamily: 'Inter_400Regular'
     }
 })
 

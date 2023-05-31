@@ -6,8 +6,11 @@ import YelloDow from "../YellowDoll/YelloDow";
 import Ballance from "../Ballance/Ballance";
 import movements from "../../Movements";
 import MovementTypes from "../MovementTypes/MovementTypes";
+import { useNavigation } from '@react-navigation/native';
 
 const Card = () => {
+  const navigation = useNavigation();
+
   return (
     <LinearGradient
       style={styles.Card}
@@ -22,7 +25,7 @@ const Card = () => {
       <View style={styles.headerInfo}>
         <YelloDow />
         <View style={styles.cardInfo}>
-          <Text style={styles.cardTitle}>Danish</Text>
+          <Text style={styles.cardTitle} onPress={() => navigation.navigate("Profile")}>Dedaldino</Text>
           <Text style={styles.accoutType}>Personal account</Text>
         </View>
       </View>

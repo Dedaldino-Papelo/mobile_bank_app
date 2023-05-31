@@ -7,7 +7,7 @@ const MovementTypes = ({items}) => {
   return (
       <View style={styles.boxWrapper}>
         <View style={styles.boxItem}>
-            <Image source={src} />
+            <Image style={{width: 22, height: 22}} source={src} />
         </View>
         <Text style={styles.boxTitle}>{type}</Text>
       </View>
